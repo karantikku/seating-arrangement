@@ -50,7 +50,7 @@ main ()
 	  for (j = 0; j < groupSize; j++)
 	    {
 	      temp = ((weeks * j) + group) % noOfGroups;
-	      x = x + arr[j][temp]
+	      x = x + arr[j][temp];
 	    }
 	  weeksArrangement[weeks][group] = weeksArrangement[weeks][group] + x;
 	}
